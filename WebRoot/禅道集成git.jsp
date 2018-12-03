@@ -9,7 +9,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <head>
     <base href="<%=basePath%>">
     
-    <title>My JSP 'test.jsp' starting page</title>
+    <title>禅道&Git</title>
     
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
@@ -28,5 +28,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 bug#123,234, 1234，也可以是bug:123,234 1234，id列表之间，用逗号和空格都可以。
 story#123 task#123
 bug, story, task是必须标注的。:)</div>
+	<a>url = git@github.com:liangzhiyuan94886/zhianxiaoqu</a>
   </body>
 </html>
