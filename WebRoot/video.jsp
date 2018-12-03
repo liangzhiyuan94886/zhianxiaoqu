@@ -58,6 +58,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 d.add(16,3,'摄像头3');
                 d.add(17,3,'摄像头4');
                 d.add(18,3,'摄像头5');
+				d.add(18,3,'摄像头5');
+				d.add(18,3,'摄像头5');
+				d.add(18,3,'摄像头5');
+				d.add(18,3,'摄像头5');
                 document.write(d);
             </script>
         </div>
