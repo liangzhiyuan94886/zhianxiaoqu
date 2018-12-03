@@ -29,5 +29,6 @@ bug#123,234, 1234，也可以是bug:123,234 1234，id列表之间，用逗号和空格都可以。
 story#123 task#123
 bug, story, task是必须标注的。:)</div>
 	<a>url = git@github.com:liangzhiyuan94886/zhianxiaoqu</a>
+	<a>https://github.com/liangzhiyuan94886/zhianxiaoqu.git</a>
   </body>
 </html>
