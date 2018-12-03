@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCommunityInfoServlet</servlet-name>
+    <servlet-class>com.Servlet.AddCommunityInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryCommunityInfoServlet</servlet-name>
+    <servlet-class>com.Servlet.QueryCommunityInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryCommunityInfoByLikeServlet</servlet-name>
+    <servlet-class>com.Servlet.QueryCommunityInfoByLikeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteCommunityInfoByIdServlet</servlet-name>
+    <servlet-class>com.Servlet.DeleteCommunityInfoByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryCommunityInfoByIdServlet</servlet-name>
+    <servlet-class>com.Servlet.QueryCommunityInfoByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateCommunityInfoServlet</servlet-name>
+    <servlet-class>com.Servlet.UpdateCommunityInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryLongitudeAndLatitudeServlet</servlet-name>
+    <servlet-class>com.Servlet.QueryLongitudeAndLatitudeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryCommunityInfoById</servlet-name>
+    <servlet-class>com.Servlet.QueryCommunityInfoById</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AddCommunityInfoServlet</servlet-name>
+    <url-pattern>/AddCommunityInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryCommunityInfoServlet</servlet-name>
+    <url-pattern>/QueryCommunityInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryCommunityInfoByLikeServlet</servlet-name>
+    <url-pattern>/QueryCommunityInfoByLikeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteCommunityInfoByIdServlet</servlet-name>
+    <url-pattern>/DeleteCommunityInfoByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryCommunityInfoByIdServlet</servlet-name>
+    <url-pattern>/QueryCommunityInfoByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateCommunityInfoServlet</servlet-name>
+    <url-pattern>/UpdateCommunityInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryLongitudeAndLatitudeServlet</servlet-name>
+    <url-pattern>/QueryLongitudeAndLatitudeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryCommunityInfoById</servlet-name>
+    <url-pattern>/QueryCommunityInfoById</url-pattern>
+  </servlet-mapping>
+
+</web-app>

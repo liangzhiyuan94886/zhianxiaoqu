@@ -1,0 +1,125 @@
+@CHARSET "utf-8";
+body{
+	background-image: url(../images/loginPage/background.jpg);
+    font-size: 15px;
+	color: white;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	font-family:"微软雅黑";
+	margin:0px;
+	padding:0px;
+}
+.middle-div{
+	margin: 0px auto 30px;
+	height: 520px;
+	width: 92%;
+}
+.left-div, .mid-div, .right-div{
+	background-size:100% 100%;
+	padding: 20px 20px 20px 20px;
+	height: 520px;
+}
+.left-div{
+	background: url(../images/fireControlPage/1.png) no-repeat ;
+	width: 27%;
+	background-size:100% 100%;
+	float:left;
+}
+.mid-div{
+	background: url(../images/fireControlPage/1.png) no-repeat;
+	width: 27%;
+	margin-left: 2%;
+	background-size:100% 100%;
+	float:left;
+}
+.right-div{
+	background: url(../images/fireControlPage/2.png) no-repeat;
+	width: 42%;
+	background-size:100% 100%;
+	float:right;
+}
+.bottom-div{
+	background: url(../images/fireControlPage/3.png) no-repeat;
+	width:92%;
+	margin:  0px auto 30px;
+	height: 300px;
+	background-size:100% 100%;
+}
+.title-span{
+	font-size:18px;
+	color:white;
+}
+.left-div-top{
+	height:120px;
+}
+.mid-div-top{
+	padding:10px 10px 10px 10px;
+	color:white;
+	height:120px;
+}
+.mid-div1{
+	width: 48%;
+	height: 40px;
+	background-color: #1d2f46;
+	float:left;
+	/* border:1px yellow solid; */
+}
+.mid-div2{
+	width: 48%;
+	height: 40px;
+	background-color: #1d2f46;
+	float:right;
+}
+.mid-div3{
+	width: 48%;
+	height: 40px;
+	background-color: #1d2f46;
+	float:left;
+	margin-top: 10px;
+}
+.mid-div4{
+	width: 48%;
+	height: 40px;
+	background-color: #1d2f46;
+	float:right;
+	margin-top: 10px;
+}
+.mid-div-left1{
+	float:left;
+	margin-left:10px;
+	line-height: 20px;
+}
+.mid-div-left{
+	float:left;
+	margin-left:10px;
+	line-height: 40px;
+}
+.mid-div-right{
+	float: right;
+	margin-right:10px;
+	line-height: 40px;
+}
+.min-span{
+	color: #37b1f5;
+	font-size:18px;
+}
+
+table{
+	color:white;
+	width: 100%;
+}
+thead{
+	background-color: #1d2f46;
+}
+tr{
+	height:40px;
+}
+td{
+	width: 33%;
+	padding-left:10px;
+	border-bottom: 1px solid #293f57;
+}
+/* ----圆形 */

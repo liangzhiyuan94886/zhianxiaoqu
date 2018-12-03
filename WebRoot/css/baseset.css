@@ -1,0 +1,292 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	
+    width: 100%;
+    height: 100%;
+	text-align:center;
+    background-image: url(../images/loginPage/background.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+    overflow: hidden;
+    color: white;
+}
+
+.btn {
+    width: 100%;
+}
+.btn div{
+    float: left;
+    margin-left: 22%;
+    background-size: 100%;
+    height:7%;
+    width: 8%
+}
+
+.btn .btn1{
+	width: 8%;	
+
+
+}
+.btn .btn2{
+	width: 8%;	
+    margin-left: 0.2%;
+    
+}
+.btn .btn3{
+	width: 8%;	
+    margin-left: 23.7%;
+    
+}
+.btn .btn4{
+	width: 8%;	
+    margin-left: 0.05%;
+    
+}
+.btn div a{
+    color: floralwhite;
+    display: block;
+    line-height: 34px;
+    text-align: center;
+    width: 100%;
+}
+.bigbox{
+	width: 95%;
+	height: 600px;
+	margin:0 auto;
+}
+.tab{
+	width: 97%;
+	height: 830px;
+	background:url(../images/videoPage/back1.png) no-repeat;
+	background-size: 100% 100%;
+	margin:0 auto;
+	position:relative;
+
+}
+.manager{
+	height: 40px;
+	width: 8%;
+}
+.manager h4{
+	margin-top: 20px;
+	float: right;
+	color: floralwhite;
+}
+.search{
+	margin-top: 15px;
+	height: 28px;
+	width: 100%;
+	
+}
+.search p{
+	float: left;
+	margin-left: 70px;
+	color: floralwhite;
+	line-height: 28px;
+	
+}
+.search input{
+	outline-style: none ;
+	outline-width: 0 ;
+	border: none ;
+	float: left;
+	width: 17%;
+	height: 26px;
+	margin-left: 10px;
+	border-radius: 3px;
+	color: #fff;
+	background-color: rgba(177, 226, 248, 0.2);
+}
+
+.search .searchbtn{
+	width: 6%;
+	height: 26px;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	background-color: rgba(22, 85, 120, 0.7);
+	line-height: 26px;
+	float: left;
+	margin-left: 10px;
+}
+.search .btn{
+	font-family: "微软雅黑";
+	width: 6%;
+	height: 26px;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	background-color: rgba(22, 85, 120, 0.7);
+	line-height: 26px;
+	float: right;
+	margin-right: 80px;
+	padding: 0;
+}
+.modal-content{
+	width: 600px;
+	height: 520px;
+	background-color: #165578;
+	color: #fff;
+}
+.close{
+	height: 30px;
+	width: 30px;
+	background-color: pink;
+
+}
+.modal-title{
+	text-align: center;
+	padding: 40px;
+}
+.add_body{
+	margin: 30px;
+
+}
+.add_body input{
+	padding: 0;
+	margin: 0;
+	border: 1px solid #31ADAF;
+	width: 200px;
+	height: 25px;
+	background-color: rgba(177, 226, 248, 0.01);
+}
+
+.add_body select{
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	border: 1px solid #31ADAF;
+	padding: 0;
+	margin: 0;
+	width: 200px;
+	height: 25px;
+	background-color:#165578;
+
+}
+
+.add_body select option{
+	background-color: rgba(177, 226, 248, 0.2);
+}
+.btnphoto{
+	margin-right: 305px;
+	border: none;
+	border-radius: 3px;
+	height: 26px;
+	background-color: rgba(49,173,175,0.9);
+}
+.footbtn-add{
+	width: 600px;
+	height: 30px;
+	padding: 0 200px;
+}
+.footbtn-add  .btn{
+	height: 30px;
+	width: 80px;
+	border: 1px solid #31ADAF;
+	background-color: #165578;
+	color: white;
+	margin: auto;
+	margin-right: 10px;
+}
+
+
+.btn-primary{
+	font-size: 14px;
+}
+.form{
+	width: 92%;
+	height: 450px;
+	float: left;
+	margin-left: 55px;
+	margin-top: 15px;
+}
+.form table{
+	text-align: left;
+	color: floralwhite;
+	
+}
+.form table thead th{
+	background-color: #01354D;
+}
+
+
+.form .table .actionBtn button{
+	border: unset;
+	background-color: unset;
+	padding: 0 8px;
+	
+}
+.table tr:hover td{
+	background-color: #286090;
+}
+.page{
+	height: 40px;
+	width: 100%;
+	position: absolute;
+	bottom: 30px;
+	overflow: hidden;
+}
+ul.pagination{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	float: right;
+	margin-right: 100px;
+}
+ul.pagination li{
+	display: inline;
+	height: 15px;
+	width: 18px;
+
+}
+ul.pagination li a{
+	background-color: #7C858E;
+	float: left;
+	padding: 2px 4px;
+	text-decoration: none;
+	transition: background-color .3s;
+	border: 1px solid ;
+	color: #000;
+	margin: 0 4px;
+}
+.BMap_cpyCtrl
+	{
+		display:none; 
+	}
+	.anchorBL{
+		display:none; 
+	} 
+.row_all{
+
+	z-index: -999;
+}
+.editbox{
+	width: 100%;
+
+}
+.td1{
+	width: 20%;
+}
+.td2{
+	width: 20%;
+}
+td{
+	height: 40px;
+	padding: 5px;
+	
+}
+.mapbox{
+	width: 860px;
+	height: 624px;
+	margin: 0 auto;
+}
+.form td{
+	border-bottom: 1px solid #293f57;
+}
+.img2{
+	max-width: 180px;
+	max-height: 180px;
+}
